@@ -131,9 +131,12 @@ def adding_to_dennis
         }
      }
 
-    programmer_hash[:dennis_ritchie] = {languages: "Assembly"}
+    programmer_hash[:dennis_ritchie][:languages] = "Assembly"
     
     programmer_hash
+
+my_hash = {first: "i'm first!", second: "i'm second!"}
+my_hash[:third] = "i'm third!"
 
     # programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
 
